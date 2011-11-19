@@ -23,6 +23,8 @@ sed "s/db_password/$db_password/g" db.sql > db.sql.new
 rm db.sql
 mv db.sql.new db.sql
 
+cp ../db.sh .
+
 sh install.sh
 sh db.sh
 
