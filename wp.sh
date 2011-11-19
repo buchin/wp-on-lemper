@@ -26,6 +26,7 @@ mv db.sql.new db.sql
 cp ../db.sh .
 
 sh install.sh
+echo "please enter your database root password"
 sh db.sh
 
 echo "finish"
