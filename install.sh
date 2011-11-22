@@ -2,7 +2,7 @@
 
 echo "start installing WordPress for LEMPER"
 echo "creating directories for your_domain.com"
-mkdir /srv/www/your_domain.com /srv/www/your_domain.com/public /srv/www/your_domain.com/logs
+mkdir -p /srv/www /srv/www/your_domain.com /srv/www/your_domain.com/public /srv/www/your_domain.com/logs
 
 echo "creating nginx.conf for domain"
 touch /srv/www/your_domain.com/public/nginx.conf
