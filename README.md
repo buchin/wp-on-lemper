@@ -8,7 +8,7 @@ easily install WordPress on LEMP Stack.
 
 if WordPress On LEMPER is not cloned
 
-    git clone git://github.com/buchin/WordPress-On-Lemper.git
+    git clone git://github.com/buchin/wp-on-lemper.git
 
 Then
 
