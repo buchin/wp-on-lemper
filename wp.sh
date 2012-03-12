@@ -31,3 +31,8 @@ sh db.sh
 
 echo "finish"
 cd ..
+
+/etc/init.d/nginx restart
+/etc/init.d/mysql restart
+/etc/init.d/php5-fpm restart
+/etc/init.d/varnish restart
